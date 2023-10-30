@@ -1,0 +1,687 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+/* NAVEGADOR */
+
+a{
+    color: black;
+text-decoration: none;
+padding-right: 40px;
+}
+
+.menuhamburguesa{
+    display: none;
+}
+
+header{
+display: flex;
+justify-content: space-between;
+height: 75px ;
+margin: 10px;
+padding: 10px;
+font-size: 17px;
+align-items: center;
+margin-right: 30px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.logo{
+    display: flex;
+    height: 70px;
+
+}
+
+/* PRIMER SECCION*/
+h2{
+    margin: 15px;
+}
+
+.titulo{
+    font-size: 60px;
+    display: flex;
+    padding: 30px;
+    margin: 35px;
+    
+}
+
+.titulo2 h1{
+    border-right: 2px solid rgb(41, 35, 35) ; 
+    padding:35px;
+    padding-left: 100px 
+    
+}
+
+.parrafo1{
+    font-size: 28px;
+    padding: 45px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align:left;
+}
+
+.primerfoto img{
+    padding-left: 160px;
+    height: 690px;
+}
+
+/* SEGUNDA SECCION */
+.foto2 img{
+    margin-top: 150px;
+    height: 300px;
+    padding-bottom: 50px;
+}
+
+
+.seccion2{
+    display: flex;
+}
+
+h3{
+    font-size: 25px;
+    margin: 15px;}
+
+
+ul{
+list-style-type: none;
+margin: 1px;
+}
+
+.titulo3{
+margin-top: 150px;
+padding: 35px;
+color: grey;
+}
+
+.titulo3 h3{
+color: black;
+}
+
+.icono1{
+    color:white;
+    height: 22px;
+    width: 24px;
+border-radius: 50px;
+background-color: black;
+
+}
+
+.icono1 i{
+    padding: 8px;
+
+}
+
+
+
+.linea2{
+    padding-top: 35px;
+    font-size: 20px;
+    font-family:'Courier New', Courier, monospace mono;
+    color: black;
+}
+
+.linea2 li{
+    padding-top: 28px;
+}
+
+
+/* TERCERA SECCION */
+h4{
+    font-size: 25px;
+    margin: 50px; 
+    color: black;
+    
+}
+
+.texto3{
+    font-size: 15px;
+    padding-left:  190px;
+    padding-right: 100px;
+    color: rgba(0, 0, 0, 0.411);
+    
+}
+.readmore{
+    color: black;
+    padding-top: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.terceraseccion{
+    display: flex;
+}
+
+.foto3 img{
+height: 600px;
+}
+
+/* CUARTA SECCION */
+
+.cuartaseccion{
+    display: flex;
+}
+
+.foto4 img{
+    padding-left: 180px;
+    padding-bottom: 100px;
+    height: 500px;
+    margin-top: -250px;
+}
+
+h5{
+    font-size: 19px;
+    padding-top:  10px; 
+    padding-bottom: 15px;
+    color: black; 
+
+}
+.texto4{
+    color: rgba(0, 0, 0, 0.411);
+    font-size: 15px;
+    padding-top: 10px;
+    margin: 20px;
+    padding-left: 40px;
+    padding-right: 100px;
+    
+}
+
+.seeall{
+color: black;
+padding-top: 35px;
+font-size: 18px;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/* QUINTA SECCION */
+.box1{
+    background-color: rgba(85, 141, 143, 0.062);
+    font-size: 15px;
+    
+}
+
+.fotoperfil{
+    height: 120px;
+    width: 35px ;
+    display: flex;
+    padding-left: 600px;
+    padding-top: 100px;
+}
+
+.fotoperfil img{
+    box-shadow: -22px -20px 0 -5px rgba(0, 0, 0, 0.76) ;
+    
+}
+
+.textocentro{ 
+    font-family:Arial, Helvetica, sans-serif ;
+    font-size: 13px ;
+    color: grey;
+    padding-left: 10px;
+    }
+
+    .textocentro i{
+    width: 18px;
+    }
+
+    h6{
+    color: black; 
+    font-size: 20px;
+    padding-top: 25px;
+    white-space: nowrap;
+    }
+
+.textobox1{
+    padding-top: 30px;
+    padding-bottom: 60px;
+    padding-right: 300px;
+    padding-left: 300px;
+    color: grey;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    font-size: 12px;
+}
+
+/* SEXTA SECCION */
+
+.boxfinal{
+    display: flex;
+    margin: 40px;
+}
+
+.boxfinal h6{
+    font-size: 20px;
+}
+
+.boxizquierdo1{
+    padding-top: 6px;
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 50px;
+    font-size: 15px;
+    color: grey;
+}
+
+.textoizquierdo h6{
+padding-bottom: 10px;
+}
+
+.fotofinal{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.textofinal1 img{
+    float: left;
+    font-size: 15px;
+    margin: 30px;
+    height: 80px;
+}
+
+.textofinal2 img {
+    padding-top: 29px;
+    padding-left: 33px;
+    padding-right: 20px;
+    float: left;
+    height: 80px;
+}
+
+
+
+
+h6{
+    font-size: 15px;
+}
+
+/* footer */
+.contenedordelbox{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 100px;
+    padding-bottom: 20px;
+}
+
+footer{
+    background-color: rgb(46, 45, 45);
+    
+}
+
+.footerlogo img{
+    height: 76px;
+    padding-bottom: 30px;
+}
+
+.footerbox1 p a{
+    color: rgba(255, 255, 255, 0.658);
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+}
+
+.footerbox1 p {
+    padding-bottom: 10px;
+}
+
+.footerbox2 p a{
+    color: rgba(255, 255, 255, 0.658);
+    padding-bottom: 5px;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+.footerbox2 p {
+    padding-bottom: 10px;
+}
+
+.footerbox3 p{
+    color: rgba(255, 255, 255, 0.658);
+    padding-bottom: 5px;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+font-size: 13px;
+}
+
+input{
+    background-color: rgb(63, 61, 61) ;
+    color: white;
+    border: 25px;
+    padding: 8px 8px;
+}
+button{
+    color: white;
+    background-color: rgb(63, 61, 61) ;
+    border: 50px;
+    padding: 8px 8px;
+    font-size: 10px;
+}
+.finalredes{
+    padding-top: 15px;
+}
+    
+
+
+.fa-brands fa-twitter i{
+    padding-left: 15px;
+}
+
+
+/*RESPONSIVE (MEDIA QUERIES)*/
+@media (max-width:768px){
+    h1{
+        font-size: 50px;
+    }
+    .tituloparrafo{
+        font-size: 17px;
+        margin-top: -70px;
+    }
+    .parrafo1 p{
+        font-size: 19px;
+    }
+.titulo2 h1{
+    padding-top: 40px;
+    border-right: 1px solid 100px rgb(41, 35, 35) ;
+}  
+
+.primerfoto img{
+    height: 380px;
+    padding-left: 160px;
+}
+
+
+/* SEGUNDA SECCION*/
+
+.foto2 img{
+height: 245px;
+margin-top: 59px;
+}
+
+.titulo3{
+    font-size: 13px;
+    margin-top: -1px;
+}
+
+.linea2{
+    font-size: 15px;
+    
+}
+
+.linea2 li{
+    padding-top: 10px;
+}
+
+/* TERCERA SECCION*/
+.terceraseccion{
+margin-left: 50px ;
+}
+h4{
+    font-size: 19px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-left: 29px;
+}
+
+.texto3{
+    font-size: 15px;
+    padding-left:  15px;
+    padding-right: 15px;
+}
+
+.foto3 img{
+height: 380px;
+}
+
+/* CUARTA SECCION*/
+.foto4 img{
+    height: 280px;
+    padding-top: 150px;
+    }
+.texto4{
+    font-size: 15px;
+    padding-top: 5px;
+    margin: 3px;
+    padding-right: 10px;
+}
+/* QUINTA SECCION */
+.box1{
+    background-color: rgba(85, 141, 143, 0.062);
+    width: 817px;
+    font-size: 25px;
+    
+}
+
+.fotoperfil img{
+    height: 80px;
+    margin-right: 0px;
+}
+.fotoperfil{
+    padding-left: 360px;
+    padding-top: 80px;
+}
+.textobox1{
+    padding-top: 30px;
+    padding-bottom: 50px;
+    padding-right: 80px;
+    padding-left: 80px;
+}
+/* SEXTA SECCION */
+
+.boxizquierdo1 h6{
+font-size: 14px;
+margin-bottom: 15px;
+}
+
+.boxizquierdo1 p{
+    font-size: 13px;
+}
+
+.boxfinal{
+    margin: 1px;
+}
+.textofinal1{
+    font-size: 15px;
+}
+
+.textofinal2{
+    font-size: 15px;
+    margin-bottom: 25px;
+}
+
+
+.textofinal1 h6{
+    font-size: 13px;
+}
+.textofinal2 h6{
+    font-size: 13px;
+}
+.textofinal1 p{
+    font-size: 13px;
+}
+.textofinal2 p{
+    font-size: 13px;
+    
+}
+.textofinal1 img{
+    font-size: 5px;
+    height: 55px;
+    margin-right: 20px;
+}
+
+.textofinal2 img{
+    font-size: 5px;
+    height: 55px;
+    margin-right: 0px;
+}
+
+
+/*FOOTER*/
+footer{
+    width: 817px; 
+}
+
+.footerlogo img{
+    height: 60px;
+}
+
+.footerbox1{
+font-size: 13px;
+}
+
+.footerbox2{
+    font-size: 13px;
+}
+}
+
+
+@media (max-width:480px){
+
+    /*NAV*/
+    header{
+        font-size: 12px;
+        display: block;
+        margin-left: 130px;
+    }
+    .logo img{
+        margin-left: 30px;
+    }
+/*PRIMER SECCION*/
+.titulo2 h1{
+    padding-left: 0px;
+    
+}
+h1{
+    font-size: 24px; 
+    margin-right: -15px;
+}
+
+.tituloparrafo{
+    margin-top: -50px;
+    font-size: 10px;
+}
+.parrafo1 p{
+    margin-top: 25px;
+    font-size: 12px;
+}
+
+.primerfoto img{
+    height: 199px;
+    margin-top: -80px;
+}
+
+/*SEGUNDA SECCION*/
+.foto2 img{
+    height: 150px;
+    }
+    .titulo3{
+        font-size: 12px;
+        margin-top: -1px;
+    }
+    H3{
+        font-size: 15px;
+    }
+    .linea2 li{
+        font-size: 15px;
+        margin-left: -210px;
+        margin-bottom: 30px;
+    }
+    .linea2 .icono1{
+        height: 16px;
+        width: 19px;
+        margin-left: -210px;
+        margin-top: -30px;
+    }
+    /*TERCERA SECCION*/
+    h4{
+        font-size: 20px;
+        font-style: none;
+        margin-top: 0;
+    }
+    .texto3{
+        font-size: 12px;
+        margin-left: -30px;
+    }
+    .foto3 img{
+        height: 180px;
+        }
+
+    .readmore{
+        padding-top: 2px;
+    }
+        
+    /*CUARTA SECCION*/
+    .foto4 img{
+        height: 180px;
+        margin-top: -180px;
+    }
+    .texto4{
+        margin-right: 5px;
+        font-size: 13px;
+        padding: 6px;
+    }
+
+    .cuartaseccion{
+        margin-left: -100px;
+    }
+    .seeall{
+        font-size: 10px;
+        padding-top: 3px ;
+    }
+
+    /*QUINTA SECCION*/
+    .box1{
+        background-color: rgba(85, 141, 143, 0.062);
+        width: 480px;
+        font-size: 15px;
+    }
+    .fotoperfil{
+        padding-left: 200px;
+        padding-top: 80px;
+    }
+    .textobox1{
+        font-size: 10px;
+    }
+    /*SEXTA SECCION*/
+    .boxizquierdo1 h6{
+        font-size: 16px;
+        margin-bottom: 1px;
+        }
+        .boxizquierdo1 p{
+            font-size: 13px;
+            margin-bottom: 1px;
+            }
+.boxfinal{
+flex-wrap: wrap;
+}
+/*FOOTER*/
+footer{
+    width: 480px; 
+
+}
+
+.footerlogo img{
+    height: 50px;
+    margin-top: -200px;
+    
+}
+
+.footerbox1{
+font-size: 10px;
+margin-left: -150px;
+}
+
+.footerbox2{
+    font-size: 10px;
+}
+.footerbox3 p{
+font-size: 10px;
+}
+input{
+    border: 3px;
+    padding: 3px 3px;
+    margin-bottom: 10px;
+}
+button{
+    color: white;
+    background-color: rgb(63, 61, 61) ;
+    border: 100px;
+    padding: 3px 3px;
+    font-size: 10px;
+}
+}
